@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url("./Norse-Bold.otf") format('opentype');
+}
+
+main.container{
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+}
+
+.row{
+  height: 100%;
+}
+
+#green, #form{
+  padding: 0px;
+}
+
+#green{
+  background-image: url(./green.jpg);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#green > div{
+  height: 20%;
+  margin-top: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+}
+
+#odin{
+  height: 80%;
+}
+
+#green span{
+  font-family: Norse-Bold;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+}
+
+#form{
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#p1, #p2, legend{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+fieldset{
+  box-shadow: 0 -2px 3px -3px black, 0 2px 3px -3px black;
+}
+
+.input{
+  display: flex;
+  gap: 10%;
+}
+
+.btn{
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: #596D48;
+  color: white;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+#login a{
+  color: #596D48;
+  font-weight: bold;
+}
+
+input{
+  border-color: #E5E7EB;
+}
+
+input:focus{
+  border-color: blue;
+  box-shadow: 0 0 2px 2px blue;
+}
+
+.error{
+  border-color: red;
+}
